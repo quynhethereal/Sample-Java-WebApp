@@ -16,7 +16,9 @@
     </dependency>
   </dependencies>
 
-  <pluginManagement>
+
+  <build>
+    <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -25,7 +27,6 @@
             </plugin>
         </plugins>
     </pluginManagement>
-  <build>
     <finalName>simpleWebProject</finalName>
   </build>
 </project>
